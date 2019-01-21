@@ -1,0 +1,11 @@
+<h1>안녕하세요. 글자수를 세어봅시다.</h1>
+<!-- 어바웃이랑 링크로 연결 -->
+<a href="{%url 'about'%}">ABOUT</a>
+
+<!-- 사용자에게 입력받기 -->
+<form action="{%url 'result'%}">
+    <textarea name="fulltext" id="" cols="40" rows="10"></textarea>
+    <br>
+<!-- 제출버튼 -->
+    <input type="submit" value="Count!">
+</form>
